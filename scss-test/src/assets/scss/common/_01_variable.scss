@@ -1,0 +1,84 @@
+/**********************
+*					  *
+*   Variables		  *
+*					  *
+***********************/
+
+/*
+	Colors
+	====== 
+*/
+
+// Brand Color
+
+$brand-real:	   #3CAC9E;
+$brand-light: 	 #F9F9F9;
+$brand-dark: 	   #212121;
+
+
+//== Grayscale
+
+$white:          #ffffff;
+$black:          #000000;
+$gray: 		  	   #666666;
+$light:          #E8E8E8;
+
+
+//== Background
+
+$bg-primary:	$brand-real;
+$bg-light: 		$brand-light;
+$bg-white:		$white;
+
+
+/*
+	Typography
+	==========
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Roboto:100,500,900');
+
+$font-family-roboto: 'Roboto', sans-serif;
+$font-family-open-sans: 'Open Sans', sans-serif;
+$baseFontSize : 14;
+
+/*
+	Container
+	==========
+*/
+$container-width: 990px;
+$container-header-width: 1150px;
+
+/*
+	Buttons
+	=======
+*/
+//
+//## For each button, define text, background and border color.
+
+$btn-default-bg:       $brand-real;
+$btn-default-color:    $white;
+$btn-default-border:   $brand-light;
+
+$btn-primary-bg:       $brand-light;
+$btn-primary-color:    $brand-dark;
+$btn-primary-border:   $brand-light;
+
+
+/*
+  Spacing
+  =======
+*/
+$spacing-sm: 10px;
+$spacing-md: 20px;
+$spacing-lg: 30px;
+
+/*
+	Media queries
+	=============
+*/
+
+$mobile: max-width 768px;
+$tablet: max-width 992px;
+$desktop: 1200px;
+
