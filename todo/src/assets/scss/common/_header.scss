@@ -1,0 +1,30 @@
+/**********************
+*                     *
+*   Header            *
+*                     *
+***********************/
+
+header {
+  padding: 17px 0;
+  .logo-wrapper {
+    font-size: 42px;
+    color: $white;
+    @include clearfix();
+    display: inline-block;
+  }
+  .header-nav {
+    float: right;
+    width: auto;
+    margin-top: 5px;
+    .btn {
+      font-size: 14px;
+    }
+    li {
+      float: left;
+      margin-right: 10px;
+      &:last-child {
+        margin: 0
+      }
+    }
+  }
+}
